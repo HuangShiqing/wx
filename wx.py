@@ -12,31 +12,6 @@ master = ensure_one(found)
 message = bot.messages
 
 
-
-#AI汽车制造业
-# 安信可科技
-# 程序人生
-# 读芯术
-# 大世界影城博大店
-# 共青团中央
-# IT之家
-# 江南大学共青团
-# 机器之心
-# 江大物研
-# 脚本之家
-# 江南大学图书馆
-# 雷锋网
-# 量子位
-# 人民日报
-# 商品历史价格
-# 搜狐科技
-# 世界名校奖学金
-# 腾讯企业邮箱
-# 微软研究院AI头条
-# 央视新闻
-
-
-
 # 转发消息
 @bot.register(chats=Friend)
 def forward(msg):
